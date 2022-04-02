@@ -1,3 +1,5 @@
+## Analysing response to policies targeted towards combating covid19 in Uganda.
+
 As global communities respond to COVID-19, Google has provided mobility reports to help guide policy to combat covid_19. 
 
 These Community Mobility Reports aim to provide insights into what has changed in response to policies aimed at combating COVID-19. 
