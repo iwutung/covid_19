@@ -17,11 +17,11 @@ def load_mobility_data(category):
     """
     # load data sets
     df_2020 = pd.read_csv(
-        './Region_Mobility_Report_CSVs/2020_UG_Region_Mobility_Report.csv')
+        'https://github.com/iwutung/covid_19/blob/master/datasets/2020_UG_Region_Mobility_Report.csv')
     df_2021 = pd.read_csv(
-        './Region_Mobility_Report_CSVs/2021_UG_Region_Mobility_Report.csv')
+        'https://github.com/iwutung/covid_19/blob/master/datasets/2021_UG_Region_Mobility_Report.csv')
     df_2022 = pd.read_csv(
-        './Region_Mobility_Report_CSVs/2022_UG_Region_Mobility_Report.csv')
+        'https://github.com/iwutung/covid_19/blob/master/datasets/2022_UG_Region_Mobility_Report.csv')
 
     # join the data sets
     mob_df_ug = pd.concat([df_2020, df_2021, df_2022]).reset_index()
